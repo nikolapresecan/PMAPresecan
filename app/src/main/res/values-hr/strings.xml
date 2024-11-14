@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PMAPresecan</string>
+    <string name="header_text">Studenti</string>
+    <string name="select_language_prompt">Odaberite jezik</string>
+    <string name="croatian">Hrvatski</string>
+    <string name="english">Engleski</string>
+    <string name="hungarian">Mađarski</string>
+
+    <string name="label_ime">Ime</string>
+    <string name="label_prezime">Prezime</string>
+    <string name="label_datumrod">Datum rođenja</string>
+    <string name="label_predmet">Predmet</string>
+    <string name="label_profesor">Profesor</string>
+    <string name="label_predavanja">Sati predavanja</string>
+    <string name="label_lv">Sati LV</string>
+    <string name="label_tip">Tip predmeta</string>
+    <string name="label_obavezni">Obavezni</string>
+    <string name="label_izborni">Izborni</string>
+    <string name="button_vrati">Vrati na početak</string>
+    <string name="button_dalje">Dalje</string>
+</resources>

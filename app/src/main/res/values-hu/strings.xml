@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PMAPresecan</string>
+    <string name="header_text">Diákok</string>
+    <string name="select_language_prompt">Válasszon nyelvet</string>
+    <string name="croatian">Horvát</string>
+    <string name="english">Angol</string>
+    <string name="hungarian">Magyar</string>
+
+    <string name="label_ime">Keresztnév</string>
+    <string name="label_prezime">Vezetéknév</string>
+    <string name="label_datumrod">Születési dátum</string>
+    <string name="label_predmet">Tantárgy</string>
+    <string name="label_profesor">Tanár</string>
+    <string name="label_predavanja">Előadások órák</string>
+    <string name="label_lv">LG órák</string>
+    <string name="label_tip">Tantárgy típusa</string>
+    <string name="label_obavezni">Kötelező</string>
+    <string name="label_izborni">Választható</string>
+    <string name="button_vrati">Vissza a kezdőlapra</string>
+    <string name="button_dalje">Tovább</string>
+</resources>
