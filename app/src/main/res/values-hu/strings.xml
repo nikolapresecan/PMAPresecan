@@ -19,4 +19,9 @@
     <string name="label_izborni">Választható</string>
     <string name="button_vrati">Vissza a kezdőlapra</string>
     <string name="button_dalje">Tovább</string>
+    <string name="label_student">Diák</string>
+    <string name="label_sazetak">Absztrakt</string>
+    <string name="toast_popunite_polja">Töltse ki az összes beviteli mezőt</string>
+    <string name="toast_nije_dopusteno">A visszalépés nem megengedett</string>
+    <string name="toast_broj">Írjon be egy 0-nál nagyobb vagy egyenlő számot</string>
 </resources>

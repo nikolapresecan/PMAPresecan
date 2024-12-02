@@ -36,7 +36,7 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent pocIntent = new Intent(HomeActivity.this, PersonalInfoActivity.class);
+                Intent pocIntent = new Intent(HomeActivity.this, CreateNewRecordActivity.class);
                 startActivity(pocIntent);
             }
         });
@@ -74,6 +74,6 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onBackPressed()
     {
-        Toast.makeText(this, "Vraćanje unatrag nije dopušteno", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.toast_nije_dopusteno), Toast.LENGTH_SHORT).show();
     }
 }

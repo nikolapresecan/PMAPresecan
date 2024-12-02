@@ -19,4 +19,9 @@
     <string name="label_izborni">Izborni</string>
     <string name="button_vrati">Vrati na početak</string>
     <string name="button_dalje">Dalje</string>
+    <string name="label_student">Student</string>
+    <string name="label_sazetak">Sažetak</string>
+    <string name="toast_popunite_polja">Popunite sva polja za unos</string>
+    <string name="toast_nije_dopusteno">Vraćanje unatrag nije dopušteno</string>
+    <string name="toast_broj">Unesite broj veći ili jednak 0</string>
 </resources>

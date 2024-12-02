@@ -6,11 +6,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 
@@ -55,7 +58,13 @@ public class StudentAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             studentViewHolder.textIme.setText(student.getIme());
             studentViewHolder.textPrezime.setText(student.getPrezime());
             studentViewHolder.textPredmet.setText(student.getPredmet());
+            if (student.getSlika() != null && !student.getSlika().isEmpty()) {
+                Glide.with(holder.itemView.getContext())
+                        .load(student.getSlika())
+                        .into(studentViewHolder.imageView);
+            } else {
 
+            }
         }
         if (holder instanceof HeaderViewHolder){
             HeaderViewHolder headerViewHolder = (HeaderViewHolder) holder;
@@ -100,11 +109,13 @@ public class StudentAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
     private class StudentViewHolder extends RecyclerView.ViewHolder{
         TextView textIme, textPrezime, textPredmet;
+        ImageView imageView;
         StudentViewHolder(View view) {
             super(view);
             textIme = view.findViewById(R.id.textIme);
             textPrezime = view.findViewById(R.id.textPrezime);
             textPredmet = view.findViewById(R.id.textPredmet);
+            imageView = view.findViewById(R.id.imageView);
         }
     }
 }

@@ -3,12 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/drawable/capture_button_background.xml" value="0.3635" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/drawable/ic_camera_solid.xml" value="0.3485" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/activity_camera.xml" value="0.264" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/activity_create_new_record.xml" value="0.20364583333333333" />
         <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/activity_personal_info.xml" value="0.264" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/activity_personal_info.xml" value="0.1482889733840304" />
         <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/activity_student_info.xml" value="0.25" />
         <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/activity_summary.xml" value="0.264" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/fragment_personal_info.xml" value="0.20364583333333333" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/fragment_student_info.xml" value="0.20364583333333333" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/fragment_summary.xml" value="0.20364583333333333" />
         <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/header_layout.xml" value="0.25" />
-        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/student_layout.xml" value="0.25" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/layout/student_layout.xml" value="0.4" />
+        <entry key="..\:/Android/PMAPresecan/app/src/main/res/xml/network_security_config.xml" value="0.22418478260869565" />
       </map>
     </option>
   </component>

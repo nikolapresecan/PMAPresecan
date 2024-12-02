@@ -4,6 +4,7 @@ public class Student {
     private String Ime;
     private String Prezime;
     private String Predmet;
+    private String Slika;
 
     public Student() {
     }
@@ -12,6 +13,13 @@ public class Student {
         Ime = ime;
         Prezime = prezime;
         Predmet = predmet;
+    }
+
+    public Student(String ime, String prezime, String predmet, String slika) {
+        Ime = ime;
+        Prezime = prezime;
+        Predmet = predmet;
+        Slika = slika;
     }
 
     public String getIme() {
@@ -36,5 +44,13 @@ public class Student {
 
     public void setPredmet(String predmet) {
         Predmet = predmet;
+    }
+
+    public String getSlika() {
+        return Slika;
+    }
+
+    public void setSlika(String slika) {
+        Slika = slika;
     }
 }
